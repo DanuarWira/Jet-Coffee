@@ -31,6 +31,7 @@ fun MenuItem(
     Card(
         modifier = modifier.width(140.dp),
         shape = RoundedCornerShape(8.dp),
+        elevation = CardDefaults.cardElevation(1.dp),
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.background
         )
